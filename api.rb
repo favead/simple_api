@@ -36,8 +36,8 @@ module App
   end
 end
 
-post('/set') { App.new.set(request) }
+post('/set') { App.set(request) }
 
 get('/get:query') { App.get(params['query']) }
 
-get('/get') { App.new.get(params['query']) }
+get('/get') { App.get(params['query']) }
