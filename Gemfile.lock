@@ -1,0 +1,12 @@
+GEM
+  specs:
+    gdbm (2.1.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  gdbm
+
+BUNDLED WITH
+   2.2.3
